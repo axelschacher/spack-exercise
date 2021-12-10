@@ -38,7 +38,7 @@ class SpackExercise(CMakePackage):
     version('0.2.0', sha256='2d309f0dcf7343d88ceaec7a3daa6cb556603777ed35b90d741671d4dc04ef5d')
     version('0.1.0', sha256='afedc68249587779f1ade08760823ed17cbff62a4cf3d1eaa88d2fe609854470')
 
-    # FIXME: Add dependencies if required.
+    # Add dependencies if required.
     depends_on('boost@1.65.1:', when='@0.2.0:')
     depends_on('yaml-cpp@0.7.0:', when='@0.3.0:')
    
